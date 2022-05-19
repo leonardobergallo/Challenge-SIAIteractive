@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Oso</title>
+   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="contenedor_video">
+    <video id="mivideo" width="1280" height="720">
+      <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"></source>
+ </video>
+    <div class="controles">
+    <button id="IniciarPausar">Reproducir</button>
+    <input type="range" id="Velocidad" value="0">
+    </div>
+  </div>
+
+  <!--socket.io -->  
+ <script src="/socket.io/socket.io.js"></script>
+ <script src="/video.js"></script>
+</body>
+</html>
