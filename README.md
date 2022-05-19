@@ -3,6 +3,12 @@
 
 Guía de Implementación:
 
+-Para iniciar el proyecto npm run dev.
+
+-Ingresar al navegador http://localhost:3000/
+
+Si hace falta las depedencias usar:
+
 -Inicializar el proyecto:npm init --yes
 
 -Instalar las dependencias:
@@ -10,4 +16,4 @@ Guía de Implementación:
                            - websockets:$npm i websocket 
                            - $npm i nodemon -D 
 
--Para iniciar el proyecto npm run dev.
+
